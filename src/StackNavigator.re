@@ -12,6 +12,8 @@ external config:
                              ]
                                =?,
     ~headerLayoutPreset: [@bs.string] [ | `left | `center]=?,
+    ~headerStyle: ReactNative.Style.t=?,
+    ~headerTransparent: bool=?,
     ~cardStyle: ReactNative.Style.t=?,
     ~cardShadowEnabled: bool=?,
     ~cardOverlayEnabled: bool=?,
